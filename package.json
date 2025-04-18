@@ -1,0 +1,28 @@
+{
+  "name": "talon.one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "test:regression:headed": "cypress run --headed --browser chrome --env grepTags=@regression-P0",
+    "test:regression:headless": "cypress run --browser chrome --env grepTags=@regression-P0",
+    "test:smoke:headed": "cypress run --headed --browser chrome --spec \"cypress/e2e/placeOrder/*.cy.js\" --env grepTags=@smoke",
+    "test:smoke:headless": "cypress run --browser chrome --spec \"cypress/e2e/placeOrder/*.cy.js\" --env grepTags=@smoke",
+    "test:all:headed": "cypress run --headed --browser chrome",
+    "test:all:headless": "cypress run --browser chrome",
+    "test:all:env:headed": "ENVIRONMENT=production cypress run --headed --browser chrome",
+    "test:all:env:headless": "ENVIRONMENT=production cypress run --browser chrome"
+  },
+  "author": "pushpanjali dokania",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cypress": "^1.1.6",
+    "cypress": "^14.3.0",
+    "cypress-grep": "^3.0.4",
+    "typescript": "^5.8.3"
+  }
+}
+
+
+

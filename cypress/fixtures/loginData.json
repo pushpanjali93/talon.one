@@ -1,0 +1,10 @@
+{
+    "validUser": {
+      "username": "pushpanjali.dokania@gmail.com",
+      "password": "Pushpa@123"
+    },
+    "invalidUser": {
+      "username": "xyz@gmail.com",
+      "password": "ipsumlorem"
+    }
+  }

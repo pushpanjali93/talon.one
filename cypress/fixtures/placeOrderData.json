@@ -1,0 +1,18 @@
+{
+    "validOrder": {
+      "name": "pushpa",
+      "country": "Germany",
+      "city": "Berlin",
+      "card": "123456789000000",
+      "month": "April",
+      "year": "2025"
+    },
+    "invalidOrder": {
+      "name": "",
+      "country": "USA",
+      "city": "newcity",
+      "card": "xxxxxxxxxxxxxxxxxx",
+      "month": "",
+      "year": "xyz"
+    }
+  }

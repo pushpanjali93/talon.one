@@ -1,0 +1,8 @@
+{
+  "validPosition": {
+    "productPosition": 0
+  },
+  "invalidPosition": {
+    "productPosition": 7
+  }
+}
