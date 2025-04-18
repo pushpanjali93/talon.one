@@ -16,9 +16,9 @@ This project is done by Pushpanjali Dokania for Talon.one.
 
 -  npm run test:regression:headless --> Run regression tests (P0) headless
 
--  npm run test:all:headed: run all the test cases in chrome and headed mode
+-  npm run test:all:headed: run all the test cases in chrome and headed mode in production env
 
--  npm run test:all:headless: run all the test cases in chrome and headless mode
+-  npm run test:all:headless: run all the test cases in chrome and headless mode in production env
 
 
 **Environment specific commands**
